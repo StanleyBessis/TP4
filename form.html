@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="get" action="https://ecoledirecte.com">
+    <label> Quelle est votre formation ? </label>
+
+    <input type="text" placeholder="Votre nom de famille"> <br> <br>
+
+    <label> Dite nous en plus sur vous</label> <br> <br>
+    <textarea rows="4" cols="30" placeholder="Ici." ></textarea> <br> <br>
+    <button>Envoyer mes réponses</button> <br> <br>
+
+    <div class="form">
+
+  Votre language favoris
+    <select class="tst">
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">JavaScript</option>
+        <option value="4">PHP</option>
+
+    </select>
+    </div>
+    <p>Sexe</p>
+    <input type="radio" name="sexe">Masculin <br>
+    <input type="radio" name="sexe">Female <br> <br>
+
+
+<fieldset>
+    <legend>Quels sont votre formation</legend>
+    <input type="checkbox" name="n1"> BTS
+    <input type="checkbox" name="n2"> BTS
+    <input type="checkbox" name="n3"> BTS
+</fieldset>
+    <fieldset>
+        <legend>Quels sont votre formation</legend>
+        <input type="checkbox" name="n1"> BTS
+        <input type="checkbox" name="n2"> BTS
+        <input type="checkbox" name="n3"> BTS
+    </fieldset>
+    <fieldset>
+        <legend>Quels sont votre formation</legend>
+        <input type="checkbox" name="n1"> BTS
+        <input type="checkbox" name="n2"> BTS
+        <input type="checkbox" name="n3"> BTS
+    </fieldset>
+    <input type="submit"><input type="reset"> <br> <br>
+
+    Entrer votre mot de passe : <input type="password" name="mot de passe" id=""> <br> <br>
+
+     Choisir un fruit : <input type="text" list="fruit" id="">
+
+    <datalist id="fruit">
+        <option value="Orange"></option>
+        <option value="bannae"></option>
+        <option value="abricot"></option>
+    </datalist>
+
+    <br>
+    <br>
+
+   Entrer votre mail : <input type="email" name="mail" id="">
+    <input type="submit" value="OK">
+    
+    Url de votre site <input type="url" name="web" id="">
+    <input type="submit" value="OK">
+
+
+
+
+</form>
+</body>
+</html>
